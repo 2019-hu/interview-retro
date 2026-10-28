@@ -1,0 +1,8 @@
+# 个人面试数据（不进版本库）
+/retro/
+
+# 依赖与杂项
+node_modules/
+*.log
+.DS_Store
+Thumbs.db

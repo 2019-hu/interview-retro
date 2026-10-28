@@ -1,0 +1,73 @@
+{
+  "version": "1.0.0",
+  "weighted": 2.3,
+  "weight_sum": 1,
+  "grade": "C",
+  "grade_meaning": "需要系统补齐",
+  "detail": [
+    {
+      "id": "structure",
+      "score": 2,
+      "weight": 0.15,
+      "weighted": 0.3,
+      "skipped": false
+    },
+    {
+      "id": "evidence",
+      "score": 2,
+      "weight": 0.22,
+      "weighted": 0.44,
+      "skipped": false
+    },
+    {
+      "id": "depth",
+      "score": 2,
+      "weight": 0.33,
+      "weighted": 0.66,
+      "skipped": false
+    },
+    {
+      "id": "fit",
+      "score": 3,
+      "weight": 0.18,
+      "weighted": 0.54,
+      "skipped": false
+    },
+    {
+      "id": "delivery",
+      "score": 3,
+      "weight": 0.12,
+      "weighted": 0.36,
+      "skipped": false
+    }
+  ],
+  "record": {
+    "date": "2025-01-08",
+    "task": "2025-01-08-某互联网公司-后端开发工程师-一面",
+    "company_type": "bigtech",
+    "company_label": "一线互联网大厂",
+    "role": "后端开发工程师",
+    "round": "一面",
+    "weighted": 2.3,
+    "grade": "C",
+    "dims": {
+      "structure": 2,
+      "evidence": 2,
+      "depth": 2,
+      "fit": 3,
+      "delivery": 3
+    },
+    "gaps": [
+      "G3",
+      "G2",
+      "G4",
+      "G1",
+      "G6"
+    ],
+    "top_gap": "G3",
+    "qa_count": 12,
+    "duration_min": 19,
+    "jd_coverage": 0.313,
+    "analyzed_at": "2026-10-15T04:59:53.609Z"
+  }
+}

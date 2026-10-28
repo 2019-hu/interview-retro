@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "updated": "2025-01",
+  "note": "权重只用于加权总分与短板优先级判断，标签本身不代表能力评价。",
+  "profiles": {
+    "bigtech": {
+      "label": "一线互联网大厂",
+      "weights": { "structure": 0.15, "evidence": 0.22, "depth": 0.33, "fit": 0.18, "delivery": 0.12 },
+      "focus": ["设计取舍与原理", "数据口径与极值场景", "失败模式与线上验证"],
+      "taboos": ["名词堆砌", "编造数据", "用「我们团队」代替「我」"]
+    },
+    "growth": {
+      "label": "中厂 / 成长期公司",
+      "weights": { "structure": 0.15, "evidence": 0.28, "depth": 0.22, "fit": 0.22, "delivery": 0.13 },
+      "focus": ["独立扛事的能力", "需求到上线的完整链路", "结果与成本账"],
+      "taboos": ["只讲框架不讲业务收益", "过度强调重流程"]
+    },
+    "foreign": {
+      "label": "外企 / 跨国团队",
+      "weights": { "structure": 0.26, "evidence": 0.18, "depth": 0.18, "fit": 0.22, "delivery": 0.16 },
+      "focus": ["结构化沟通与结论先行", "跨时区协作", "书面表达与流程意识"],
+      "taboos": ["模糊承诺", "英文项目复述准备不足", "轻视流程价值"]
+    },
+    "soe_finance": {
+      "label": "国企 / 银行 / 金融科技",
+      "weights": { "structure": 0.18, "evidence": 0.18, "depth": 0.16, "fit": 0.22, "delivery": 0.26 },
+      "focus": ["稳定可靠与合规意识", "风险与审计视角", "长期服务意愿", "表达分寸"],
+      "taboos": ["夸张词堆砌（颠覆/绝对）", "贬低前东家", "跳槽原因解释不清"]
+    },
+    "startup": {
+      "label": "创业公司 / 早期团队",
+      "weights": { "structure": 0.12, "evidence": 0.26, "depth": 0.16, "fit": 0.30, "delivery": 0.16 },
+      "focus": ["多面手与从 0 到 1", "自己找活干", "速度与成本意识"],
+      "taboos": ["强调「我只做后端」", "抱怨资源不足"]
+    },
+    "outsourcing": {
+      "label": "外包 / 驻场",
+      "weights": { "structure": 0.22, "evidence": 0.16, "depth": 0.14, "fit": 0.20, "delivery": 0.28 },
+      "focus": ["按规范交付", "快速熟悉陌生系统", "客户沟通与耐受力"],
+      "taboos": ["轻视非核心业务", "沟通中显得难协作"]
+    },
+    "research": {
+      "label": "研究型岗位 / 实验室",
+      "weights": { "structure": 0.14, "evidence": 0.20, "depth": 0.38, "fit": 0.18, "delivery": 0.10 },
+      "focus": ["方法严谨性与实验设计", "文献理解", "可复现性"],
+      "taboos": ["把工程上线故事当科研贡献", "只讲结论不讲局限"]
+    },
+    "general": {
+      "label": "通用 / 未指定",
+      "weights": { "structure": 0.20, "evidence": 0.20, "depth": 0.20, "fit": 0.20, "delivery": 0.20 },
+      "focus": ["五维均衡评估"],
+      "taboos": []
+    }
+  },
+  "aliases": {
+    "字节": "bigtech", "字节跳动": "bigtech", "腾讯": "bigtech", "阿里": "bigtech", "阿里巴巴": "bigtech",
+    "美团": "bigtech", "快手": "bigtech", "百度": "bigtech", "京东": "bigtech", "拼多多": "bigtech",
+    "网易": "bigtech", "滴滴": "bigtech", "小米": "bigtech", "华为": "bigtech", "b站": "bigtech", "哔哩哔哩": "bigtech",
+    "互联网大厂": "bigtech", "大厂": "bigtech",
+    "中厂": "growth", "成长期": "growth", "独角兽": "growth", "saas": "growth",
+    "外企": "foreign", "外资": "foreign", "微软": "foreign", "亚马逊": "foreign", "谷歌": "foreign",
+    "ibm": "foreign", "埃森哲": "foreign", "德勤": "foreign", "shopee": "foreign", "跨国公司": "foreign",
+    "国企": "soe_finance", "央企": "soe_finance", "银行": "soe_finance", "工行": "soe_finance", "建行": "soe_finance",
+    "招行": "soe_finance", "中行": "soe_finance", "农行": "soe_finance", "平安": "soe_finance",
+    "金融科技": "soe_finance", "证券": "soe_finance", "保险": "soe_finance", "事业单位": "soe_finance",
+    "创业": "startup", "初创": "startup", "startup": "startup", "早期团队": "startup",
+    "外包": "outsourcing", "驻场": "outsourcing", "中软": "outsourcing", "软通": "outsourcing", "博彦": "outsourcing",
+    "研究所": "research", "实验室": "research", "高校": "research", "科研": "research"
+  }
+}
